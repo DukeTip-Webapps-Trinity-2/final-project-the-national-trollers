@@ -1,5 +1,11 @@
 /*emerald lake.css*/
 
 body{
-    background-color: cadetblue;
+    background-color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
