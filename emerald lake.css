@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*emerald lake.css*/
 
 body{
@@ -8,4 +9,16 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+=======
+/*emerald lake.css*/
+
+body{
+    background-color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+>>>>>>> 7395e3d2e5b2b6740b401538c407f1080ebf6786
 }

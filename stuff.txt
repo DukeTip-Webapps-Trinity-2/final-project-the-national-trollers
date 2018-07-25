@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is where we put who did what.  
 
 Jay: created readme.txt
@@ -15,3 +16,22 @@ page2, and pages 6-9 is for animals totally 5 pages
 
 David: Created nav bar, Finished about, and directions, and recommendations.
 David/Kevin: created home page
+=======
+This is where we put who did what.  
+
+Jay: created readme.txt
+
+Jay: created common.js
+
+Kevin: copied the foundation of the bootstrap, made the jumbotron, carousel, and image slider improted most of the images after resizing. 
+
+Jay/Kevin: resized most of the pictures
+
+Jay/Kevin finished the second half of Animals.
+
+Matthew/Kevin: Finished first half
+page2, and pages 6-9 is for animals totally 5 pages
+
+David: Created nav bar, Finished about, and directions, and recommendations.
+David/Kevin: created home page
+>>>>>>> 7395e3d2e5b2b6740b401538c407f1080ebf6786
