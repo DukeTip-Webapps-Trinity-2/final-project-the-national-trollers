@@ -6,3 +6,4 @@ jay: created common.js
 
 
 Matthew: first animals page/ pichers
+matthew: hotel/ animals page

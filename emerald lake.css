@@ -11,10 +11,13 @@ body{
 }
 
 .special-passage{
-    margin-right:25%;
-    margin-left:25%;
+    margin-right: 500%;
+    margin-left: 500%;
     
 }
-
- 
+div { text-align: center; }
+ul { display: inline-block; text-align: left; }
+body {
+    background-color: cadetblue;
+ }
 
