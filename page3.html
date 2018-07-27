@@ -16,45 +16,75 @@
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Flathead Lake National Park</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="page3.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="page2.html">Animals/Wilderness</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        Visitor Information
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="page5.html">Airport Information</a>
-                        <a class="dropdown-item" href="page12.html">Hotels/Resturants</a>
-                        <a class="dropdown-item" href="#">Attractions</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="page4.html">Opinion/Blog</a>
-                </li>
-                <form class="form-inline my-2 my-lg-0">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buy Passes</button>
-                </form>
-        </div>
-    </nav>
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Flathead Lake National Park</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="page3.html">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="page2.html">Animals/Wilderness</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Visitor Information
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="page5.html">Airport Information</a>
+                    <a class="dropdown-item" href="page12.html">Hotels/Resturants</a>
+                    <a class="dropdown-item" href="page11.html">Attractions</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="page4.html">Opinion/Blog</a>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+               <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+Buy Passes
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+<div class="modal-dialog">
+  <div class="modal-content">
+
+    <!-- Modal Header -->
+    <div class="modal-header">
+      <h4 class="modal-title" >Passes</h4>
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+
+    <!-- Modal body -->
+    <div class="modal-body">
+     
+    </div>
+
+    <!-- Modal footer -->
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+    </div>
+
+  </div>
+</div>
+</div>
+            </form>
+    </div>
+</nav>
+
 
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -64,15 +94,25 @@
             </div>
         </div>
     </div>
-
+    <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">About the Park</h1>
+              <p class="lead">Flathead Lake National Park, where you can climb mountains, swim lengths, hike trails, learn about nature, and pretty much anything
+                to do with nature. As the nations newest park, we take pride in how we do things. So come on. Journey into the untamed
+                wilderness and stake your claim in the brand new history of this park. Because as we said earlier, this place is
+                our home, and we want it to be yours too.
+              </p>
+            </div>
+          </div>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Our History</h1>
-            <p class="lead">The idea of Flathead Lake National Park was created in 2016 when people saw the beautiful scenery and teeming wildlife
+            <p class="lead">The idea of Flathead Lake National Park was created in 2018 when people saw the beautiful scenery
+                 and the 2.5 million acres of National Park spce waiting for them and teeming wildlife
                 on the spot of a national forest south of Glacier National Park. The push to get the park recgonized as a
                 national park began and picked up steam with support from presidential canidates like Bernie Sanders, Ben
                 Carson, and Marco Rubio. After surveying the area, Environmental Protection Agency officials said the park
-                should be recgonized. President Donald Trump signed the executive order on June 30, 2018, and the park came
+                should be recgonized. President Donald Trump signed the executive order on May 2, 2018, and the park came
                 into being.
                 <br> Today, the park brings in people of all professions all over the world. Visitors can explore the beautiful
                 scenery and wilderness in the park as they hike the numerous trails, fish in the countless lakes and rivers,
@@ -80,6 +120,9 @@
                 Lake Nature Preserve, licensed through the national park service. Bird watchers will be astounded at all
                 the different birds and species. Make sure you check it out as your adventure is waiting for you at Flathead Lake
                 National Park and Flathead Lake Nature Preserve.
+                <br>Whether you come to get away from the mess or to seek out a new adventure, Flathead Lake National Park
+                is your place. It's just waiting for you to decide when. So make sure to come, no matter what you do, and we will
+                be waiting for your next adventure.
             </p>
         </div>
     </div>
